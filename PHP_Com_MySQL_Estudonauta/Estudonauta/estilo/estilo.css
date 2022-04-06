@@ -25,3 +25,7 @@ table.listagem td{
     border: 1px solid rgb(168, 168, 168);
     padding: 10px;
 }
+
+table.listagem tr:nth-child(even){
+    background-color: f2f2f2;
+}
