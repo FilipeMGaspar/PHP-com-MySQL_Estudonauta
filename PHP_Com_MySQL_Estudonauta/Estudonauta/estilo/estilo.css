@@ -10,3 +10,8 @@ div#corpo{
     background-color: #fff;
     box-shadow: 0px 0px 30px #777;
 }
+
+table.listagem{
+    width: 100%;
+    text-align: left;
+}
