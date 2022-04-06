@@ -8,4 +8,5 @@ div#corpo{
     margin: auto;
     padding: 20px;
     background-color: #fff;
+    box-shadow: 0px 0px 30px #777;
 }
