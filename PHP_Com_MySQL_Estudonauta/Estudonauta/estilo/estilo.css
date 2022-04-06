@@ -15,3 +15,11 @@ table.listagem{
     width: 100%;
     text-align: left;
 }
+
+table.listagem tr{
+    height: 50px;
+}
+
+table.listagem td{
+    border: 1px solid rgb(168, 168, 168);
+}
