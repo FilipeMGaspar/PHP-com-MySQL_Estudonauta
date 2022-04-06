@@ -1,7 +1,9 @@
 body{
-    
+    background-color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div#corpo{
-
+    width: 800px;
+    margin: auto;
 }
