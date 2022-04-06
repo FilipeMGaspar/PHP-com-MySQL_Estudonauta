@@ -31,5 +31,9 @@ table.listagem tr:nth-child(even){
 }
 
 table.listagem td:nth-child(1){
-    width: 40px;
+    width: 50px;
+}
+
+table.listagem td:nth-child(3){
+    width: 90px;
 }
