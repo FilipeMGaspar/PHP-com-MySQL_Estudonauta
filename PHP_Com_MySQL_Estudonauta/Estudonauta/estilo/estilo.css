@@ -29,3 +29,7 @@ table.listagem td{
 table.listagem tr:nth-child(even){
     background-color: #cecece;
 }
+
+table.listagem td:nth-child(1){
+    width: 40px;
+}
