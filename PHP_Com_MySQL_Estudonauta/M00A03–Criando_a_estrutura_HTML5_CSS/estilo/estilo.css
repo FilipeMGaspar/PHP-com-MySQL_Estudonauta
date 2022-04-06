@@ -14,4 +14,26 @@ div#corpo{
 table.listagem{
     width: 100%;
     text-align: left;
+    border-collapse: collapse;
+}
+
+table.listagem tr{
+    height: 50px;
+}
+
+table.listagem td{
+    /*border: 1px solid rgb(168, 168, 168);*/
+    padding: 10px;
+}
+
+table.listagem tr:nth-child(even){
+    background-color: #cecece;
+}
+
+table.listagem td:nth-child(1){
+    width: 50px;
+}
+
+table.listagem td:nth-child(3){
+    width: 90px;
 }
