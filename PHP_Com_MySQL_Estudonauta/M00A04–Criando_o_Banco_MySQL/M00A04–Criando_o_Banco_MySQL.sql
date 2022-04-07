@@ -33,4 +33,4 @@ create table jogos(
 	primary key(cod),
     foreign key(genero) references generos(cod),
     foreign key(produtora) references produtoras(cod)
-);
+)engine=InnoDB default charset=utf8;
