@@ -10,8 +10,14 @@ create table usuarios (
 ) engine=InnoDB default charset=utf8;
 
 create table generos(
-	cod int not null,
+	cod int(11) not null,
     genero varchar(20) not null,
     primary key(cod)
 )engine=InnoDB default charset=utf8;
 
+create table produtoras(
+	cod int(11) not null,
+    produtora varchar(20) not null,
+    pais varchar(15) not null,
+    primary key(cod)
+)engine=InnoDB default charset=utf8;
