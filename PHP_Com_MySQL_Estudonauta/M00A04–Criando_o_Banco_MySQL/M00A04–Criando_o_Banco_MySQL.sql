@@ -13,4 +13,5 @@ create table generos(
 	cod int not null,
     genero varchar(20) not null,
     primary key(cod)
-);
+)engine=InnoDB default charset=utf8;
+
