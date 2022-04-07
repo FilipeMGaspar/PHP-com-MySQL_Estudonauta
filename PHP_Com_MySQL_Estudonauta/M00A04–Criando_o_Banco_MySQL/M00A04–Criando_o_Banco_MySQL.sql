@@ -8,3 +8,9 @@ create table usuarios (
     tipo varchar(10) not null default 'editor',
     primary key(usuario)
 ) engine=InnoDB default charset=utf8;
+
+create table generos(
+	cod int not null,
+    genero varchar(20) not null,
+    primary key(cod)
+);
