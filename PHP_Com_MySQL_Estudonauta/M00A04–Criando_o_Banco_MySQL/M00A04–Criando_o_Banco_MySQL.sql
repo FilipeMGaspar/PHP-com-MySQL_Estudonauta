@@ -21,3 +21,16 @@ create table produtoras(
     pais varchar(15) not null,
     primary key(cod)
 )engine=InnoDB default charset=utf8;
+
+create table jogos(
+	cod int(11) not null,
+    nome varchar(40) not null,
+    genero int(11) not null,
+    produtora int(11) not null,
+    descricao text not null, 
+    nota decimal(4,2) not null,
+    capa varchar(40) default null,
+	primary key(cod),
+    foreign key(genero) references generos(cod),
+    foreign key(produtora) references produtoras(cod)
+);
