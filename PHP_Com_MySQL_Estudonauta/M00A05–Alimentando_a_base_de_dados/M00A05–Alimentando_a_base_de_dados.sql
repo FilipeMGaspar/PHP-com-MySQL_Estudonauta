@@ -31,3 +31,9 @@ insert into produtoras (cod, produtora, pais) values
 (12, 'Square Enix', 'Japão'),
 (13, 'Take Two', 'EUA'),
 (14, 'Capcom', 'Japão');
+
+use db_games;
+describe jogos;
+
+insert into jogos (cod, nome, genero, produtora, descrição, nota, capa) values
+()
