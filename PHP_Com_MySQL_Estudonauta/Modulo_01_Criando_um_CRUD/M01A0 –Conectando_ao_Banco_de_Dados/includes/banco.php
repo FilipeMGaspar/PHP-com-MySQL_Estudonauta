@@ -7,7 +7,7 @@
     }
 
     //Consulta com select
-    $busca = $banco->query("select * from generos");
+    $busca = $banco->query("select * from genros");
     if(!$busca){
         echo "</p>Falha na busca! $banco->error</p>";
     }
