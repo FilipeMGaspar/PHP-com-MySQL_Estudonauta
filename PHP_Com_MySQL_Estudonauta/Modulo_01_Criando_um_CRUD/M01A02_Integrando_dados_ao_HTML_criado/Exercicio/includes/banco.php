@@ -1,5 +1,5 @@
 <?php
-    //$banco = new mysqli(host, utilizador, senha, nome da base de dados);
+    //$ligacaoBanco = new mysqli(host, utilizador, senha, nome da base de dados);
     $ligacaoBanco = new mysqli("localhost", "root", "", "db_vendeBolachas");
 
     if($ligacaoBanco->connect_errno) {
@@ -8,19 +8,18 @@
     }
 
         //Query ao banco de dados para codificação de dados em utf8
-        $banco->query("SET NAMES 'UTF8'");
-        $banco->query("SET character_set_connection=utf8");
-        $banco->query("SET character_set_client=utf8");
-        $banco->query("SET character_set_results=utf8");
-/*    
+        $ligacaoBanco->query("SET NAMES 'UTF8'");
+        $ligacaoBanco->query("SET character_set_connection=utf8");
+        $ligacaoBanco->query("SET character_set_client=utf8");
+        $ligacaoBanco->query("SET character_set_results=utf8");
+    
         //Consulta com select
-        $busca = $banco->query("select * from generos");
+        $busca = $ligacaoBanco->query("select * from clientes");
         if(!$busca){
-            echo "</p>Falha na busca! $banco->error</p>";
+            echo "</p>Falha na busca! $ligacaoBanco->error</p>";
         } else {
             
           while($registo = $busca->fetch_object()){
             print_r($registo);
           }
         }
-*/
