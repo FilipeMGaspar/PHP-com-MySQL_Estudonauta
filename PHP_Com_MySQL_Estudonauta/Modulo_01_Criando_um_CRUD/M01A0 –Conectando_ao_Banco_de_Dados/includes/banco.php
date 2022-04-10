@@ -6,6 +6,12 @@
         die();//Mata o processo de conecção com a base de dadao se der algum erro
     }
 
+    //Query ao banco de dados
+    $banco->query("");
+    $banco->query("");
+    $banco->query("");
+    $banco->query("");
+
     //Consulta com select
     $busca = $banco->query("select * from generos");
     if(!$busca){
