@@ -7,8 +7,8 @@
     }
 
     //Query ao banco de dados
-    $banco->query("");
-    $banco->query("");
+    $banco->query("SET NAMES 'UTF8'");
+    $banco->query("SET character_set_connection=utf8");
     $banco->query("");
     $banco->query("");
 
