@@ -10,7 +10,7 @@ create table clientes(
     primary key(NrCliente)
 ) engine=InnoDB default charset=utf8;
 
-create table clientes(
+create table artigos(
 	CodArtigos int not null auto_increment,
     Artigo varchar(40) not null,
     peso int not null,
