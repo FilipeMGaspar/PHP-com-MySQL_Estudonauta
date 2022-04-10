@@ -1,6 +1,12 @@
-div#corpo{
+
+body{
+    background-color: rgba(128, 128, 128, 0.534);
+}
+
+#corpo{
     border-radius: 18px;
     background-color: whitesmoke;
     width: 550px;
     color: grey;
+    margin: auto;
 }
