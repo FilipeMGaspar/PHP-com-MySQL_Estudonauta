@@ -23,3 +23,9 @@ INSERT INTO clientes (NrCliente, NomeCliente, Endereço, telefone) VALUES
 (2, "Petronilde Facadinhas", "Rua de Sto António, 45 - Vuila real", 259876509),
 (3, "Manuel Joaquim", "Rua da Justiça, 3 - Lisboa", 938548890),
 (4, "Tony Carreira", "Avª das Camionetes, 123 - Almada", 938965412);
+
+INSERT INTO artigos (CodArtigos, Artigo, peso, preço) VALUES
+(1, "Bolacha Maria Cuétara", 200, 0,45),
+(2, "Bolacha Manteiga Belgas tipo caseiro", 220, 1,19),
+(3, "Bolacha Aveia Triunfo", 180, 0,94),
+(4, "Bolacha Côco Bauducco", 162, 0,98);
