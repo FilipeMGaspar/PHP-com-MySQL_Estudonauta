@@ -18,6 +18,8 @@
     if(!$busca){
         echo "</p>Falha na busca! $banco->error</p>";
     } else {
-        $registo = $busca->fetch_object();
+        
+      while($registo = $busca->fetch_object()){
         print_r($registo);
+      }
     }
