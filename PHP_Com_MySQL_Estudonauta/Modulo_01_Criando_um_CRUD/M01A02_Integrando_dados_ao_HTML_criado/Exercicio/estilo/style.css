@@ -1,12 +1,14 @@
 
 body{
-    background-color: rgba(128, 128, 128, 0.534);
+    background-color: rgba(3, 33, 94, 0.178);
 }
 
 #corpo{
-    border-radius: 18px;
+    border-radius: 8px;
     background-color: whitesmoke;
     width: 550px;
     color: grey;
     margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgb(24, 24, 24);
 }
