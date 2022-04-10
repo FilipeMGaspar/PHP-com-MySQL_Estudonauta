@@ -1,1 +1,3 @@
-CREATE DATABASE db_clientes;
+CREATE DATABASE db_vendeBolachas;
+
+USE db_vendeBolachas;
