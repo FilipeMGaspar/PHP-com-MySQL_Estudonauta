@@ -10,7 +10,7 @@
     $banco->query("SET NAMES 'UTF8'");
     $banco->query("SET character_set_connection=utf8");
     $banco->query("SET character_set_client=utf8");
-    $banco->query("");
+    $banco->query("SET character_set_results=utf8");
 
     //Consulta com select
     $busca = $banco->query("select * from generos");
