@@ -17,3 +17,9 @@ create table artigos(
     preço DECIMAL not null,
     primary key(CodArtigos)
 ) engine=InnoDB default charset=utf8;
+
+INSERT INTO clientes (NrCliente, NomeCliente, Endereço, telefone) VALUES
+(1,"Maria Raposa", "Rua do Manjerico, 24 - Porto", 223456478),
+(2, "Petronilde Facadinhas", "Rua de Sto António, 45 - Vuila real", 259876509),
+(3, "Manuel Joaquim", "Rua da Justiça, 3 - Lisboa", 938548890),
+(4, "Tony Carreira", "Avª das Camionetes, 123 - Almada", 938965412);
