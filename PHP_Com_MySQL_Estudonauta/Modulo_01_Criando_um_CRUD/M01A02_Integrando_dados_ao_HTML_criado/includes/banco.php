@@ -13,6 +13,7 @@
     $banco->query("SET character_set_client=utf8");
     $banco->query("SET character_set_results=utf8");
 
+    /*
     //Consulta com select
     $busca = $banco->query("select * from generos");
     if(!$busca){
@@ -23,3 +24,4 @@
         print_r($registo);
       }
     }
+    */
