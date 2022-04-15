@@ -8,6 +8,10 @@
     <title>Listagem de Jogos</title>
 </head>
 <body>
+    <?php
+        include "includes";
+    ?>
+
     <div id="corpo">
         <h1>Selecione um jogo</h1>
         <table class="listagem">
