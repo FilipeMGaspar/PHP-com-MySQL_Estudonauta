@@ -24,7 +24,7 @@
                         echo "<tr><td>Nenhum registo encontrado!";
                     } else {
                         while($reg = $busca->fetch_object()){
-                            
+                            echo "<tr><td>$reg->capa<td>$reg->nome";
                         }
                     }
                 }
