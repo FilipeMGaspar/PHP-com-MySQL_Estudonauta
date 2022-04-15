@@ -40,5 +40,6 @@
             </tr>
         </table>
     </div>
+    <?php $banco->close(); //Fecho da ligação á base de dados?>
 </body>
 </html>
