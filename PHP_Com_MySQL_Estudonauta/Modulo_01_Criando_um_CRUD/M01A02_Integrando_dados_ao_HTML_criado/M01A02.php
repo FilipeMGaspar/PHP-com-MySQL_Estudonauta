@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        require_once "includes/banco.php";
+        require_once "includes/bnco.php";
     ?>
 
     <div id="corpo">
