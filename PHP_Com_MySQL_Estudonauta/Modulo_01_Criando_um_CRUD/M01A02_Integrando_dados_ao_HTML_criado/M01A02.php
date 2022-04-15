@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include "includes";
+        include "includes/banco.php";
     ?>
 
     <div id="corpo">
