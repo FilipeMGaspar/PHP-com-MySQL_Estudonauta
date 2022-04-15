@@ -17,6 +17,9 @@
         <table class="listagem">
             <?php
                 $busca = $banco->query("select * from jogos");
+                if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
+                    echo "<p>Infelizmente </p>";
+                }
             ?>
             <tr>
                 <td>Foto</td>
