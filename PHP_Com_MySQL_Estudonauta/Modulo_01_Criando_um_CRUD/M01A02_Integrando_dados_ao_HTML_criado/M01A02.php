@@ -29,29 +29,6 @@
                     }
                 }
             ?>
-            <tr>
-                <td>Foto</td>
-                <td>Nome</td>
-                <td>Adm</td>
-            </tr>
-
-            <tr>
-                <td>Foto</td>
-                <td>Nome</td>
-                <td>Adm</td>
-            </tr>
-            
-            <tr>
-                <td>Foto</td>
-                <td>Nome</td>
-                <td>Adm</td>
-            </tr>
-            
-            <tr>
-                <td>Foto</td>
-                <td>Nome</td>
-                <td>Adm</td>
-            </tr>
         </table>
     </div>
     <?php $banco->close(); //Fecho da ligação á base de dados?>
