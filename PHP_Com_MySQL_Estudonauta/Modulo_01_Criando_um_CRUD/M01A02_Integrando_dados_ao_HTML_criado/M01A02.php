@@ -25,6 +25,7 @@
                     } else {
                         while($reg = $busca->fetch_object()){
                             echo "<tr><td>$reg->capa<td>$reg->nome";
+                            echo "<td>Adm"
                         }
                     }
                 }
