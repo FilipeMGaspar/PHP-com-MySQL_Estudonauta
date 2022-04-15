@@ -15,6 +15,9 @@
     <div id="corpo">
         <h1>Selecione um jogo</h1>
         <table class="listagem">
+            <?php
+                $busca = $banco->query("select * from jogos");
+            ?>
             <tr>
                 <td>Foto</td>
                 <td>Nome</td>
