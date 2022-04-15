@@ -18,7 +18,15 @@
             <?php
                 $busca = $banco->query("select * from jogos");
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
-                    echo "<p>Infelizmente </p>";
+                    echo "<tr><td>Infelizmente não foi possivél efectuar a busca!";
+                } else {
+                    if($busca->num_rows == 0){
+                        echo "<tr><td>Nenhum registo encontrado!";
+                    } else {
+                        while($reg = $busca->fetch_object()){
+                            
+                        }
+                    }
                 }
             ?>
             <tr>
