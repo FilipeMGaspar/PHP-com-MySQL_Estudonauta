@@ -16,7 +16,7 @@
         <h1>Selecione um jogo</h1>
         <table class="listagem">
             <?php
-                $busca = $banco->query("select * from jogos");
+                $busca = $banco->query("select * from jogos order by nome");
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
                     echo "<tr><td>Infelizmente não foi possivél efectuar a busca!";
                 } else {
