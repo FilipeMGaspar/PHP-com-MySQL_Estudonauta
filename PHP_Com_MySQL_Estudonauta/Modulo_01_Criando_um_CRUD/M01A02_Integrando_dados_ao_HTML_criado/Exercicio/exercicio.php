@@ -20,7 +20,7 @@
         </table>
     </div>
     <?php
-        $banco->close();
+        $ligacaoBanco->close();
     ?>
 </body>
 </html>
