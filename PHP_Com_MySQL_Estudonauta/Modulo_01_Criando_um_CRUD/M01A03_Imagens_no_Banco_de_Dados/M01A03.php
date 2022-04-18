@@ -26,7 +26,7 @@
                     } else {
                         while($reg = $busca->fetch_object()){
                             $imgThumb = thumb($reg->capa);  
-                            echo "<tr><td><img src = '$imgThumb' class = 'mini'/><td>$reg->nome";
+                            echo "<tr><td><img src='$imgThumb' class='mini'/><td>$reg->nome";
                             echo "<td>Adm";
                         }
                     }
