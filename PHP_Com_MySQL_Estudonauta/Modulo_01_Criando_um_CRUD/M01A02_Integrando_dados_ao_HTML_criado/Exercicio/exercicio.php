@@ -13,6 +13,9 @@
     ?>
     <div id="corpo">
         <table class="listagem">
+            <?php
+                 $busca = $ligacaoBanco->query("select * from clientes"); //Pesquisa na base de dados na tabela clientes
+            ?>
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
