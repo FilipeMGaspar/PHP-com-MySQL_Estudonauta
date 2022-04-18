@@ -10,6 +10,7 @@
 <body>
     <?php
         require_once "includes/banco.php";
+        require_once "includes/funcoes.php";
     ?>
 
     <div id="corpo">
