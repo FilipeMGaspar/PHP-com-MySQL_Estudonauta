@@ -21,7 +21,8 @@
                  }else {
                     if($busca->num_rows == 0){
                         echo "<tr><td>Sem dados disponiveis!";
-                    } else{
+                    } else{ 
+                       echo "<tr><td><strong>Nome</strong></td><td><strong>Endereço</strong></td><td><strong>Telefone</strong></td></tr>";
                         while($registo = $busca->fetch_object()){
                             echo "<tr><td>$registo->NomeCliente<td>$registo->Endereço<td>$registo->telefone";
                           }
