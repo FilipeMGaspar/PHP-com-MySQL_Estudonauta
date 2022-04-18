@@ -1,4 +1,3 @@
-<pre>
 <?php
     //$ligacaoBanco = new mysqli(host, utilizador, senha, nome da base de dados);
     $ligacaoBanco = new mysqli("localhost", "root", "", "db_vendeBolachas");
@@ -14,7 +13,7 @@
         $ligacaoBanco->query("SET character_set_client=utf8");
         $ligacaoBanco->query("SET character_set_results=utf8");
     
-        //Consulta com select
+       /* //Consulta com select
         $busca = $ligacaoBanco->query("select * from clientes");
         if(!$busca){
             echo "</p>Falha na busca! $ligacaoBanco->error</p>";
@@ -24,3 +23,4 @@
             print_r($registo);
           }
         }
+        */
