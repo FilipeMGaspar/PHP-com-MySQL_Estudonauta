@@ -15,6 +15,12 @@
         <table class="listagem">
             <?php
                  $busca = $ligacaoBanco->query("select * from clientes"); //Pesquisa na base de dados na tabela clientes
+
+                 if(!$busca){ //Se a busca não acontecer
+                    echo "<tr><td>Não foi possivel encontrar dados de cliente!";
+                 }else {
+                    
+                 }
             ?>
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
