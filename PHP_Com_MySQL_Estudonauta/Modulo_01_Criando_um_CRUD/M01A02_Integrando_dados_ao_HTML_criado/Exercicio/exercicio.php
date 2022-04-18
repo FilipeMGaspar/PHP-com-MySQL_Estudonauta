@@ -19,7 +19,13 @@
                  if(!$busca){ //Se a busca não acontecer
                     echo "<tr><td>Não foi possivel encontrar dados de cliente!";
                  }else {
-                    
+                    if($busca->num_rows == 0){
+                        echo "<tr><td>Sem dados disponiveis!";
+                    } else{
+                        while($registo = $busca->fetch_object()){
+                            print_r($registo);
+                          }
+                    }
                  }
             ?>
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
