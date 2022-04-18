@@ -24,7 +24,7 @@
                         echo "<tr><td>Nenhum registo encontrado!";
                     } else {
                         while($reg = $busca->fetch_object()){
-                            echo "<tr><td><img src = 'fotos/$reg->capa' id = 'mini'/><td>$reg->nome";
+                            echo "<tr><td><img src = 'fotos/$reg->capa' class = 'mini'/><td>$reg->nome";
                             echo "<td>Adm";
                         }
                     }
