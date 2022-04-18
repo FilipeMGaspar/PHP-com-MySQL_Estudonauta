@@ -23,7 +23,7 @@
                         echo "<tr><td>Sem dados disponiveis!";
                     } else{
                         while($registo = $busca->fetch_object()){
-                            echo "<tr><td>$registo->NomeClinete<tr><td>$registo->endereço<tr><td>$registo->telefone";
+                            echo "<tr><td>$registo->NomeCliente<tr><td>$registo->endereço<tr><td>$registo->telefone";
                           }
                     }
                  }
