@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
+    <?php
+        require_once "includes/banco.php";
+    ?>
     <div id="corpo">
         <table class="listagem">
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
@@ -16,5 +19,8 @@
             <tr><td>Nome</td><td>Endereço</td><td>Telefone</td></tr>
         </table>
     </div>
+    <?php
+        $banco->close();
+    ?>
 </body>
 </html>
