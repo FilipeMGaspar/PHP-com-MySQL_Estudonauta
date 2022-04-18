@@ -39,4 +39,6 @@ table.listagem td:nth-child(3){
     width: 90px;
 }
 
-img 
+img.mini {
+    width: 50px;
+}
