@@ -23,10 +23,10 @@
                 if(!$busca){
                     echo "Busca falhou! $banco->error";
                 }
-                <tr><td rowspan='3'>foto
-                    <td>Nome do jogo
-                <tr><td> Descrição        
-                <tr><td>Adm    
+                echo "<tr><td rowspan='3'>foto";
+                    echo "<td>Nome do jogo";
+                echo "<tr><td> Descrição";
+                echo "<tr><td>Adm";    
             ?>
         </table>
     </div>
