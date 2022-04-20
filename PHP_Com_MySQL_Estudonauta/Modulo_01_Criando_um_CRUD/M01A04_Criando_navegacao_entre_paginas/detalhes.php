@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="corpo">
-        <h1></h1>
+        <h1>Detalhes do jogo</h1>
     </div>
 </body>
 </html>
