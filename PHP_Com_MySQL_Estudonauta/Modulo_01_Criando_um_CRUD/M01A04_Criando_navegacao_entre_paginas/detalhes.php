@@ -14,7 +14,7 @@
     ?>
     <div id="corpo">
         <?php
-            
+            $c = $_GET['cod'];
         ?>
         <h1>Detalhes do jogo</h1>
     </div>
