@@ -18,7 +18,10 @@
         ?>
         <h1>Detalhes do jogo</h1>
         <table>
-            <tr><td >
+            <tr><td rowspan='3'>foto
+                <td>Nome do jogo
+            <tr><td> Descrição        
+            <tr><td>Adm    
         </table>
     </div>
 </body>
