@@ -42,3 +42,8 @@ table.listagem td:nth-child(3){
 img.mini {
     width: 50px;
 }
+
+/* Configuração da Página de detalhes */
+table.detalhes {
+    width: 100%;
+}
