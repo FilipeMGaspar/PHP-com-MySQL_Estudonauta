@@ -22,6 +22,10 @@
             <?php
                 if(!$busca){
                     echo "Busca falhou! $banco->error";
+                } else {
+                    if($busca->num_rows != 1){
+                        $reg = $busca->fetch_object();
+                    }
                 }
                 echo "<tr><td rowspan='3'>foto";
                     echo "<td>Nome do jogo";
