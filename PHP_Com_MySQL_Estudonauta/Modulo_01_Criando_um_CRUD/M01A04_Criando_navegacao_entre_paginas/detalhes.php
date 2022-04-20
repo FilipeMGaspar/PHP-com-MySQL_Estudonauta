@@ -21,7 +21,7 @@
         <table class='destalhes'>
             <?php
                 if(!$busca){
-                    echo "Busca falhou! $banco->error";
+                    echo "<tr><td>Busca falhou! $banco->error";
                 } else {
                     if($busca->num_rows == 1){
                         $reg = $busca->fetch_object();
