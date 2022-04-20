@@ -23,14 +23,17 @@
                 if(!$busca){
                     echo "Busca falhou! $banco->error";
                 } else {
-                    if($busca->num_rows != 1){
+                    if($busca->num_rows == 1){
                         $reg = $busca->fetch_object();
+                        echo "<tr><td rowspan='3'>foto";
+                        echo "<td>$reg->nome";
+                        echo "<tr><td> Descrição";
+                        echo "<tr><td>Adm"; 
+                    } else {
+                        echo "<tr><td>Nenhum registro encontrado";
                     }
                 }
-                echo "<tr><td rowspan='3'>foto";
-                    echo "<td>Nome do jogo";
-                echo "<tr><td> Descrição";
-                echo "<tr><td>Adm";    
+                   
             ?>
         </table>
     </div>
