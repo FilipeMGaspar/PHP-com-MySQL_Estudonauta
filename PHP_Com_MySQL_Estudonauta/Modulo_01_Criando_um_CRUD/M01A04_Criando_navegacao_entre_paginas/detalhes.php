@@ -20,10 +20,13 @@
         <h1>Detalhes do jogo</h1>
         <table class='destalhes'>
             <?php
-            <tr><td rowspan='3'>foto
-                <td>Nome do jogo
-            <tr><td> Descrição        
-            <tr><td>Adm    
+                if(!$busca){
+                    echo "Busca falhou! $banco->error";
+                }
+                <tr><td rowspan='3'>foto
+                    <td>Nome do jogo
+                <tr><td> Descrição        
+                <tr><td>Adm    
             ?>
         </table>
     </div>
