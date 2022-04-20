@@ -13,6 +13,9 @@
         require_once "includes/funcoes.php";
     ?>
     <div id="corpo">
+        <?php
+            
+        ?>
         <h1>Detalhes do jogo</h1>
     </div>
 </body>
