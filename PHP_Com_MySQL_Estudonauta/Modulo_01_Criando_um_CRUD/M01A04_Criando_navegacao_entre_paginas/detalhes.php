@@ -15,6 +15,7 @@
     <div id="corpo">
         <?php
             $c = $_GET['cod'] ?? 0; //se o cod existir atribui a $c se não veio nada é 0
+            $busca = $banco->query("select * from jogos where cod='$c'");
         ?>
         <h1>Detalhes do jogo</h1>
         <table class='destalhes'>
