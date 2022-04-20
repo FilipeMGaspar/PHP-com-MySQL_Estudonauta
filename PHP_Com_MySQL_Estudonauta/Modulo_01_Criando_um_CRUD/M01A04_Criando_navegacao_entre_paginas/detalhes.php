@@ -8,6 +8,9 @@
     <title>Título da página</title>
 </head>
 <body>
+    <?php
+        require_once "includes/banco.php":
+    ?>
     <div id="corpo">
         <h1>Detalhes do jogo</h1>
     </div>
