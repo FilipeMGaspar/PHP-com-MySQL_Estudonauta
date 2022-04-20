@@ -17,7 +17,7 @@
             $c = $_GET['cod'] ?? 0; //se o cod existir atribui a $c se não veio nada é 0
         ?>
         <h1>Detalhes do jogo</h1>
-        <table>
+        <table class='destalhes'>
             <tr><td rowspan='3'>foto
                 <td>Nome do jogo
             <tr><td> Descrição        
