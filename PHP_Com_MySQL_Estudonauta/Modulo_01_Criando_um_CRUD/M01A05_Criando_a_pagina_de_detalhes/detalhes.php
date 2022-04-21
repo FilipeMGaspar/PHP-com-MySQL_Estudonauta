@@ -18,7 +18,7 @@
             $busca = $banco->query("select * from jogos where cod='$c'");
         ?>
         <h1>Detalhes do jogo</h1>
-        <table class='destalhes'>
+        <table class='detalhes'>
             <?php
                 if(!$busca){
                     echo "<tr><td>Busca falhou! $banco->error";
