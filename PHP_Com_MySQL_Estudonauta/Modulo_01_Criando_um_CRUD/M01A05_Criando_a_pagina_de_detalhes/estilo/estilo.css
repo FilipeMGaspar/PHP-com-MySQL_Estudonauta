@@ -50,6 +50,7 @@ table.detalhes {
 table.detalhes td {
     padding: 10px;
     vertical-align: top;
+    border: 1px solid black;
 }  
 img.full{
     height: 400px;
