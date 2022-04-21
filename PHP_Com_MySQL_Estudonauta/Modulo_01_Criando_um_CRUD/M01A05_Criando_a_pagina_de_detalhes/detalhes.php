@@ -37,6 +37,7 @@
                    
             ?>
         </table>
+        <img src="/icones/icoback.png"/>
     </div>
 </body>
 </html>
