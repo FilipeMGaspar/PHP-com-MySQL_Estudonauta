@@ -25,7 +25,7 @@
                 } else {
                     if($busca->num_rows == 1){
                         $reg = $busca->fetch_object();
-                        echo "<tr><td rowspan='3'>foto";
+                        echo "<tr><td rowspan='3'><img src='$t'/>";
                         echo "<td>$reg->nome";
                         echo "<tr><td>$reg->descricao";
                         echo "<tr><td>Adm"; 
