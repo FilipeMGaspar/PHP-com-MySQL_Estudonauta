@@ -47,3 +47,6 @@ img.mini {
 table.detalhes {
     width: 100%;
 }
+img.full{
+    height: 400px;
+}
