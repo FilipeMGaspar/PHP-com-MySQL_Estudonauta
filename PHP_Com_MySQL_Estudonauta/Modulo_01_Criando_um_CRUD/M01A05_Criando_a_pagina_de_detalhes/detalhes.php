@@ -27,7 +27,8 @@
                         $reg = $busca->fetch_object();
                         $t = thumb($reg->capa);
                         echo "<tr><td rowspan='3'><img src='$t' class='full'/>";
-                        echo "<td>$reg->nome";
+                        echo "<td><h2>$reg->nome</h2>";
+                        echo "Nota: $reg->nome/10";
                         echo "<tr><td>$reg->descricao";
                         echo "<tr><td>Adm"; 
                     } else {
