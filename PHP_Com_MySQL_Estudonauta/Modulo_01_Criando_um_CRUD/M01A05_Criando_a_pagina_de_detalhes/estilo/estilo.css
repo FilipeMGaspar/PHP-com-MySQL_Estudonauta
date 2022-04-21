@@ -46,8 +46,10 @@ img.mini {
 /* Configuração da Página de detalhes */
 table.detalhes {
     width: 100%;
-    padding: 10px;
 }
+table.detalhes td {
+    padding: 10px;
+}  
 img.full{
     height: 400px;
 }
