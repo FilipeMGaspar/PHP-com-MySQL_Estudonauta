@@ -27,7 +27,7 @@
                         $reg = $busca->fetch_object();
                         echo "<tr><td rowspan='3'>foto";
                         echo "<td>$reg->nome";
-                        echo "<tr><td>descrição";
+                        echo "<tr><td>$reg->descricao";
                         echo "<tr><td>Adm"; 
                     } else {
                         echo "<tr><td>Nenhum registro encontrado";
