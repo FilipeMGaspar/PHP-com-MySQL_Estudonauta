@@ -17,7 +17,7 @@
         <h1>Selecione um jogo</h1>
         <table class="listagem">
             <?php
-                $q = "select j.cod, j.nome, g.genero, j.capa form jogos j join generos g on j.genero = g.cod";
+                $q = "SELECT jogos.cod, nome, generos.genero, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod;";
                 $busca = $banco->query($q);
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
                     echo "<tr><td>Infelizmente não foi possivél efectuar a busca!";
