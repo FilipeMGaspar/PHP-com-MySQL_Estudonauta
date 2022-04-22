@@ -28,7 +28,7 @@
                             $imgThumb = thumb($reg->capa);  
                             echo "<tr><td><img src='$imgThumb' class='mini'/>";
                             echo "<td><a href='detalhes.php?cod=$reg->cod'>$reg->nome</a>";
-                            echo "$reg->genero";
+                            echo "[$reg->genero]";
                             echo "<td>Adm";
                         }
                     }
