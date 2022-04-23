@@ -38,6 +38,6 @@
             ?>
         </table>
     </div>
-    <?php ?>
+    <?php include_once "rodape.php";?>
 </body>
 </html>
