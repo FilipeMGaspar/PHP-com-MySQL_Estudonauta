@@ -40,5 +40,6 @@
         </table>
         <a href="M01A07.php"><img src="icones/icoback.png"/></a>
     </div>
+    <?php include_once "rodape.php";?>
 </body>
 </html>
