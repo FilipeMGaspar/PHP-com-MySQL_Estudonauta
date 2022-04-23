@@ -38,6 +38,6 @@
             ?>
         </table>
     </div>
-    <?php $banco->close(); //Fecho da ligação á base de dados?>
+    <?php ?>
 </body>
 </html>
