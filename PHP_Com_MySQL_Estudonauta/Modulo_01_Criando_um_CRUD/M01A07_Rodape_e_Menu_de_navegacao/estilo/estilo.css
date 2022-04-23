@@ -58,5 +58,7 @@ img.full{
 
 /* Configuraçao do footer*/
 footer {
-    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
