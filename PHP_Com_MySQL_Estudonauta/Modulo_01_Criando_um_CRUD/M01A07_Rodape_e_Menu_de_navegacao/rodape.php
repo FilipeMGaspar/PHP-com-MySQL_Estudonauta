@@ -1,7 +1,7 @@
 <?php
 require_once "includes/banco.php";
     echo "<footer>";
-    echo "<p>Acessado por ... em ... </p>";
+    echo "<p>Acessado por " . $_SERVER['REMOTE_ADDR'] . " em " . "</p>";
     echo "<p>Desenvolvido por Estudonauta &copy; 2022</p>";
     echo "</footer>";
 
