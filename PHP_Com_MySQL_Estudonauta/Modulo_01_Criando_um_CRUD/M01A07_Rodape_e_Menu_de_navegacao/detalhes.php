@@ -38,7 +38,7 @@
                    
             ?>
         </table>
-        <a href="M01A06.php"><img src="icones/icoback.png"/></a>
+        <a href="M01A07.php"><img src="icones/icoback.png"/></a>
     </div>
 </body>
 </html>
