@@ -20,7 +20,8 @@ header {
 
 /* Formatacao do formulario de busca*/
 form#busca{
-    
+    font-size: 10px;
+    text-align: right;
 }
 
 table.listagem{
