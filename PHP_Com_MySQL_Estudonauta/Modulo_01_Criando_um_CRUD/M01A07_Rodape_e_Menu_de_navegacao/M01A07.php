@@ -15,8 +15,8 @@
     <div id="corpo">
         <?php include_once "topo.php"?>
         <h1>Selecione um jogo</h1>
-        <form>
-            
+        <form method="get" id="busca" action="">
+            Buscar: <input type="text" name="c" size="10">
         </form>
         <table class="listagem">
             <?php
