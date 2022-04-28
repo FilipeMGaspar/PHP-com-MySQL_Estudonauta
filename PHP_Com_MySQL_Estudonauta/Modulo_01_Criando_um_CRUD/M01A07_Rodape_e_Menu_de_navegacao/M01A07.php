@@ -12,8 +12,8 @@
         require_once "includes/banco.php";
         require_once "includes/funcoes.php";
     ?>
-
     <div id="corpo">
+        <?php include_once ?>
         <h1>Selecione um jogo</h1>
         <table class="listagem">
             <?php
