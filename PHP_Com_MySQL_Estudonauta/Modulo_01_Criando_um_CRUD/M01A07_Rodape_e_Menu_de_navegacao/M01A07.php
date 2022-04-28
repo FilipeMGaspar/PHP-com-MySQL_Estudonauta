@@ -15,6 +15,9 @@
     <div id="corpo">
         <?php include_once "topo.php"?>
         <h1>Selecione um jogo</h1>
+        <form>
+            
+        </form>
         <table class="listagem">
             <?php
                 $q = "SELECT jogos.cod, nome, generos.genero, produtoras.produtora, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod JOIN produtoras ON jogos.produtora = produtoras.cod;";
