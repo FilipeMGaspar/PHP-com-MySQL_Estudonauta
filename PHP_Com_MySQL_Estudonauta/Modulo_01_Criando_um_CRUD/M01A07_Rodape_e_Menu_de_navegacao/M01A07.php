@@ -17,7 +17,7 @@
         <h1>Selecione um jogo</h1>
         <form method="get" id="busca" action="">
             Buscar: <input type="text" name="c" size="10" maxlength="40">
-            <input>
+            <input type="submit" >
         </form>
         <table class="listagem">
             <?php
