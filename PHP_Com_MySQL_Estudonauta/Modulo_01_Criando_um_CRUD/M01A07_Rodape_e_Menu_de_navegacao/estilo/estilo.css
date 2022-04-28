@@ -12,6 +12,12 @@ div#corpo{
     box-shadow: 0px 0px 30px #777;
 }
 
+/* Configuração do header página de topo*/
+header {
+    font-size: 10px;
+    text-align: right;
+}
+
 table.listagem{
     width: 100%;
     text-align: left;
@@ -61,10 +67,4 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-}
-
-/* Configuração do header*/
-header {
-    font-size: 10px;
-    text-align: right;
 }
