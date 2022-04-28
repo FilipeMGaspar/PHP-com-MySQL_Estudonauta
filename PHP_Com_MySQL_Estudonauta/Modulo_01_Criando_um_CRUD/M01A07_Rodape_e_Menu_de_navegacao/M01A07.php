@@ -16,7 +16,7 @@
         <?php include_once "topo.php"?>
         <h1>Selecione um jogo</h1>
         <form method="get" id="busca" action="">
-            Ordenar: 
+            Ordenar: Nome | Produtora | Nota Alta | Nota Baixa |
             Buscar: <input type="text" name="c" size="10" maxlength="40">
             <input type="submit" value="Ok">
         </form>
