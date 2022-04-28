@@ -13,7 +13,7 @@
         require_once "includes/funcoes.php";
     ?>
     <div id="corpo">
-        <?php include_once ?>
+        <?php include_once "topo.php"?>
         <h1>Selecione um jogo</h1>
         <table class="listagem">
             <?php
