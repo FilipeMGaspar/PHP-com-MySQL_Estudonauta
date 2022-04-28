@@ -18,6 +18,11 @@ header {
     text-align: right;
 }
 
+/* Formatacao do formulario de busca*/
+form#busca{
+    
+}
+
 table.listagem{
     width: 100%;
     text-align: left;
