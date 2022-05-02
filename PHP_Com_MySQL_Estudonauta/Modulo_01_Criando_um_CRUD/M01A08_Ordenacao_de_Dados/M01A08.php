@@ -17,10 +17,10 @@
         <h1>Selecione um jogo</h1>
         <form method="get" id="busca" action="">
             Ordenar: 
-            <a>Nome</a> | 
-            <a>Produtora</a> | 
-            <a>Nota Alta</a> |
-            <a>Nota Baixa</a> |
+            <a href="M01A08.php?o=n">Nome</a> | 
+            <a href="M01A08.php?o=n">Produtora</a> | 
+            <a href="M01A08.php?o=n">Nota Alta</a> |
+            <a href="M01A08.php?o=n">Nota Baixa</a> |
             Buscar: <input type="text" name="c" size="10" maxlength="40">
             <input type="submit" value="Ok">
         </form>
