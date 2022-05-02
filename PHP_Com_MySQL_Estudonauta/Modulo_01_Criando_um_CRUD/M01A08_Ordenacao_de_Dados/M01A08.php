@@ -11,7 +11,7 @@
     <?php
         require_once "includes/banco.php";
         require_once "includes/funcoes.php";
-        $ordem = $_GET['o'] ?? "nome";
+        $ordem = $_GET['o'] ?? "n";
     ?>
     <div id="corpo">
         <?php include_once "topo.php"?>
