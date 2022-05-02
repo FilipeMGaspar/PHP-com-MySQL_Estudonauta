@@ -30,8 +30,11 @@
                 $q = "SELECT jogos.cod, nome, generos.genero, produtoras.produtora, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod JOIN produtoras ON jogos.produtora = produtoras.cod ";
                 switch($ordem){
                     case "p":
-
+                        $q .= "ORDER BY produtoras.produtora";
                         break;
+                    case "na": 
+                        $q .= "ORDER BY jogos.nota";
+                        break;   
                 }
                 $busca = $banco->query($q);
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
