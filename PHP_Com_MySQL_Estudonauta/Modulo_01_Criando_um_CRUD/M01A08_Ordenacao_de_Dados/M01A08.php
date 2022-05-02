@@ -37,6 +37,11 @@
                         break; 
                     case "nb":
                         $q .= "ORDER BY jogos.nota ASC";  // ordem crescente
+                        break;
+                    default:
+                        $q .= "ORDER BY jogos.nome";
+                        break;
+
                 }
                 $busca = $banco->query($q);
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
