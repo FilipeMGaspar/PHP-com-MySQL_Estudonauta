@@ -27,7 +27,12 @@
         </form>
         <table class="listagem">
             <?php
-                $q = "SELECT jogos.cod, nome, generos.genero, produtoras.produtora, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod JOIN produtoras ON jogos.produtora = produtoras.cod;";
+                $q = "SELECT jogos.cod, nome, generos.genero, produtoras.produtora, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod JOIN produtoras ON jogos.produtora = produtoras.cod ";
+                switch($ordem){
+                    case "p":
+
+                        break;
+                }
                 $busca = $banco->query($q);
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
                     echo "<tr><td>Infelizmente não foi possivél efectuar a busca!";
