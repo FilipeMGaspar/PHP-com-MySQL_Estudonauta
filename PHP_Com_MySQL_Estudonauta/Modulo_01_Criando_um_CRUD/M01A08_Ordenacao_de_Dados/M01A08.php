@@ -33,8 +33,10 @@
                         $q .= "ORDER BY produtoras.produtora";
                         break;
                     case "na": 
-                        $q .= "ORDER BY jogos.nota";
-                        break;   
+                        $q .= "ORDER BY jogos.nota DESC";
+                        break; 
+                    case "nb":
+                        $q .= "ORDER BY jogos.nota";  
                 }
                 $busca = $banco->query($q);
                 if(!$busca){//Verifica se a busca não aconteceu apresentando um erro
