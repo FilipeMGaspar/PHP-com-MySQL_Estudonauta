@@ -12,7 +12,7 @@
         require_once "includes/banco.php";
         require_once "includes/funcoes.php";
         $ordem = $_GET['o'] ?? "n";
-        $chave =$_GET[]
+        $chave =$_GET['c'] ?? "";
     ?>
     <div id="corpo">
         <?php include_once "topo.php"?>
@@ -29,6 +29,11 @@
         <table class="listagem">
             <?php
                 $q = "SELECT jogos.cod, nome, generos.genero, produtoras.produtora, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod JOIN produtoras ON jogos.produtora = produtoras.cod ";
+
+                if(){
+                    
+                }
+
                 switch($ordem){
                     case "p":
                         $q .= "ORDER BY produtoras.produtora";
