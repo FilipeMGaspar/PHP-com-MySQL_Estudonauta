@@ -23,6 +23,7 @@
             <a href="M01A09.php?o=p">Produtora</a> | 
             <a href="M01A09.php?o=na">Nota Alta</a> |
             <a href="M01A09.php?o=nb">Nota Baixa</a> |
+            Mostrar Todos |
             Buscar: <input type="text" name="c" size="10" maxlength="40">
             <input type="submit" value="Ok">
         </form>
