@@ -20,7 +20,7 @@
         <form method="get" id="busca" action="">
             Ordenar: 
             <a href="M01A10.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
-            <a href="M01A10.php?o=p">Produtora</a> | 
+            <a href="M01A10.php?o=p&c=<?php echo $chave;?>">Produtora</a> | 
             <a href="M01A10.php?o=na">Nota Alta</a> |
             <a href="M01A10.php?o=nb">Nota Baixa</a> |
             <a href="M01A10.php">Mostrar Todos</a> |
