@@ -32,7 +32,7 @@
                 $q = "SELECT jogos.cod, nome, generos.genero, produtoras.produtora, descricao, nota, capa FROM `jogos` JOIN `generos`  ON jogos.genero = generos.cod JOIN produtoras ON jogos.produtora = produtoras.cod ";
 
                 if(!empty($chave)){//Se a chave não estiver vazia
-                    $q .= "WHERE jogos.nome like '%$chave%' ";
+                    $q .= "WHERE jogos.nome like '%$chave%' OR produtoras.produtora like '$chave' ";
                 }
 
                 switch($ordem){
