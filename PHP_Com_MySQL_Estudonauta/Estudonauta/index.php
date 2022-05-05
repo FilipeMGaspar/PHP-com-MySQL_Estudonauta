@@ -21,8 +21,8 @@
             Ordenar: 
             <a href="index.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
             <a href="index.php?o=p&c=<?php echo $chave;?>">Produtora</a> | 
-            <a href="index.php?o=na<?php echo $chave;?>">Nota Alta</a> |
-            <a href="index.php?o=nb<?php echo $chave;?>">Nota Baixa</a> |
+            <a href="index.php?o=na&c=<?php echo $chave;?>">Nota Alta</a> |
+            <a href="index.php?o=nb&c=<?php echo $chave;?>">Nota Baixa</a> |
             <a href="index.php">Mostrar Todos</a> |
             Buscar: <input type="text" name="c" size="10" maxlength="40">
             <input type="submit" value="Ok">
