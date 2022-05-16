@@ -7,4 +7,8 @@
                 return $caminho;
             }
         }
+
+        function voltar(){
+            return "<span class='material-symbols-outlined'>keyboard_double_arrow_left</span>";
+        }
     ?>
