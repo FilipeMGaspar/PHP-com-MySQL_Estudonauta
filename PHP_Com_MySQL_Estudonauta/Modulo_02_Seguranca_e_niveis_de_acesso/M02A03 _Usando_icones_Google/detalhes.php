@@ -42,7 +42,9 @@
                    
             ?>
         </table>
-        <a href="index.php"><img src="icones/icoback.png"/></a>
+        <a href="index.php">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+        </a>
     </div>
     <?php include_once "rodape.php";?>
 </body>
