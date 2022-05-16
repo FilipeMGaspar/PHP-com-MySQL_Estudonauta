@@ -39,7 +39,7 @@
                    
             ?>
         </table>
-        <a href="M01A10.php"><img src="icones/icoback.png"/></a>
+        <a href="index.php"><img src="icones/icoback.png"/></a>
     </div>
     <?php include_once "rodape.php";?>
 </body>

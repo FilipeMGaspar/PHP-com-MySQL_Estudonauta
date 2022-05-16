@@ -17,13 +17,13 @@
     <div id="corpo">
         <?php include_once "topo.php"?>
         <h1>Selecione um jogo</h1>
-        <form method="get" id="busca" action="">
+        <form method="get" id="busca" action="index.php">
             Ordenar: 
-            <a href="M01A10.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
-            <a href="M01A10.php?o=p&c=<?php echo $chave;?>">Produtora</a> | 
-            <a href="M01A10.php?o=na<?php echo $chave;?>">Nota Alta</a> |
-            <a href="M01A10.php?o=nb<?php echo $chave;?>">Nota Baixa</a> |
-            <a href="M01A10.php">Mostrar Todos</a> |
+            <a href="index.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
+            <a href="index.php?o=p&c=<?php echo $chave;?>">Produtora</a> | 
+            <a href="index.php?o=na<?php echo $chave;?>">Nota Alta</a> |
+            <a href="index.php?o=nb<?php echo $chave;?>">Nota Baixa</a> |
+            <a href="index.php">Mostrar Todos</a> |
             Buscar: <input type="text" name="c" size="10" maxlength="40">
             <input type="submit" value="Ok">
         </form>
