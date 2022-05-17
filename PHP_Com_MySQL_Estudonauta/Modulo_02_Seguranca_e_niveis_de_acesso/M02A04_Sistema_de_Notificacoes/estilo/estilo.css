@@ -80,7 +80,7 @@ div.sucesso{
     padding: 7px 15px;
     margin-bottom: 15px;
     border-radius: 15px;
-    background-color: green;
+    background-color: rgba(150, 209, 150, 0.651);
     color: green;
 }
 
