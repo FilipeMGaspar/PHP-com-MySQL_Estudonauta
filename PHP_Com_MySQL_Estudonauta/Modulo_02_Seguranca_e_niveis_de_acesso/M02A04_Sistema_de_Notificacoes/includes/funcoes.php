@@ -13,7 +13,8 @@
         }
 
         function msg_sucesso($msg) {
-            
+            $resp = "<div class='sucesso'>$msg</div>";
+            return $resp;
         }
 
         function msg_aviso ($msg){
