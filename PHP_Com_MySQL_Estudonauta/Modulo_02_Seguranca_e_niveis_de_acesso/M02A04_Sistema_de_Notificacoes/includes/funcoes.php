@@ -23,7 +23,7 @@
         }
 
         function msg_erro($msg) {
-            $resp="<div class='erro'>$msg</div>";
+            $resp="<div class='erro'><span class='material-symbols-outlined'>error</span>$msg</div>";
             return $resp;
         }
 
