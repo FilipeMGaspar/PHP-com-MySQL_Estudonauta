@@ -13,7 +13,7 @@
         }
 
         function msg_sucesso($msg) {
-            $resp = "<div class='sucesso'><i class='material-icons'>check_circle</i>$msg</div>";
+            $resp = "<div class='sucesso'><<span class='material-symbols-outlined'>check_circle</span>$msg</div>";
             return $resp;
         }
 
