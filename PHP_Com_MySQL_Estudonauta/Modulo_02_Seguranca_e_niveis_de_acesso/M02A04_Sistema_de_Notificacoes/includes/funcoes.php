@@ -23,7 +23,8 @@
         }
 
         function msg_erro($msg) {
-            $resp="<div class='erro'><span class='material-symbols-outlined'>error</span>$msg</div>";
+            $resp="<div class='erro'><span class='material-symbols-outlined'>gpp_bad</span>$msg</div>";
+
             return $resp;
         }
 
