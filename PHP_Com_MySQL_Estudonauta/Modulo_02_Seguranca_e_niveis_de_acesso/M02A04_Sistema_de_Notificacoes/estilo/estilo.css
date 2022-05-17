@@ -83,11 +83,19 @@ div.sucesso{
     background-color: rgb(226, 239, 218);
     color: rgb(74, 116, 67);
 }
-/*
-div.aviso{
 
+div.aviso{
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(251, 248, 229);
+    color: rgb(134, 110, 66);
 }
 
 div.erro{
-
-}*/
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(226, 239, 218);
+    color: rgb(74, 116, 67);
+}
