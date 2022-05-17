@@ -77,7 +77,11 @@ footer {
 
 /* Configuração das div de mensagens */
 div.sucesso{
-    
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: green;
+    color: green;
 }
 
 div.aviso{
