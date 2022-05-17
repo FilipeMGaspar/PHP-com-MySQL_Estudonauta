@@ -18,11 +18,13 @@
         }
 
         function msg_aviso ($msg){
-
+            $resp="<div class='aviso'><span class='material-symbols-outlined'>info</span>$msg</div>";
+            return $resp;
         }
 
         function msg_erro($msg) {
-
+            $resp="<div class='erro'>$msg</div>";
+            return $resp;
         }
 
     ?>
