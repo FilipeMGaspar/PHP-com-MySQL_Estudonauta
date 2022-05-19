@@ -23,4 +23,4 @@
     $original = 'estudonauta';
     echo $original . " --- <br>";
     echo cripto($original) . " --- <br>";
-    echo "<br>". gerarHash('estudonauta');
+    echo "<br>". gerarHash($original);
