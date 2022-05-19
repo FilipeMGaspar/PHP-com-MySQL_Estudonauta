@@ -2,7 +2,7 @@
     
     function cripto($senha){
         $c = '';
-        for($pos = 0; $pos < strlen($senha); $pos) {
+        for($pos = 0; $pos < strlen($senha); $pos++) {
             echo " --- $senha[$pos] --- ";
         }
     }
@@ -17,4 +17,4 @@
         return $ok;
     }
 
-    
+    cripto('admin');
