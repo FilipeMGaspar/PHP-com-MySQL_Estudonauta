@@ -5,4 +5,8 @@
         return $hash;
     }
 
+    function testarHash() {
+
+    }
+    
     echo gerarHash('teste') . "<br>";
