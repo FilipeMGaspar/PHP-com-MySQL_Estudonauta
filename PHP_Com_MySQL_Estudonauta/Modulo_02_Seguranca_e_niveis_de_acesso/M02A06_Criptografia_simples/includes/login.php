@@ -1,5 +1,12 @@
 <?php
     
+    function cripto($senha){
+        $c = '';
+        for($pos = 0; $pos < strlen($senha); $pos) {
+            echo " --- $senha[$pos] --- ";
+        }
+    }
+
     function gerarHash($senha){
         $hash = password_hash($senha, PASSWORD_DEFAULT);
         return $hash;
@@ -10,6 +17,7 @@
         return $ok;
     }
 
+    /*
     echo gerarHash('Teste') . "<br>";
 
     $tstHash = '$2y$10$hJjCG9/iuf8MR/qtpBi/te8qB67z02ZNjXQr2mNdcqRBtN93CBIhy';
@@ -18,3 +26,4 @@
     } else {
         echo "Senha Inválida! <br>";
     }
+    */
