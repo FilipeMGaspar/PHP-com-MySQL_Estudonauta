@@ -5,4 +5,4 @@
         return $hash;
     }
 
-    echo gerarHash('teste') . "<br>";
+    echo gerarHash('ola') . "<br>";
