@@ -18,4 +18,4 @@
         return $ok;
     }
 
-    cripto('admin');
+    cripto('1234');
