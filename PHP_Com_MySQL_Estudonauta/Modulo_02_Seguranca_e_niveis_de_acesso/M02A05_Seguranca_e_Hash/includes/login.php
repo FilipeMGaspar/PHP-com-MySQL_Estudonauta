@@ -5,8 +5,9 @@
         return $hash;
     }
 
-    function testarHash() {
-
+    function testarHash($senha, $hash) {
+        $ok = password_verify($senha, $hash);
+        return $ok;
     }
-    
+
     echo gerarHash('teste') . "<br>";
