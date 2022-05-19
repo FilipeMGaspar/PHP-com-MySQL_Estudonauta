@@ -4,7 +4,9 @@
         $c = '';
         for($pos = 0; $pos < strlen($senha); $pos++) {
             $letra = ord($senha[$pos]) + 1;
+            $c .= chr($letra);
         }
+        return $c;
     }
 
     function gerarHash($senha){
