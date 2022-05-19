@@ -4,6 +4,7 @@
         $c = '';
         for($pos = 0; $pos < strlen($senha); $pos++) {
             $letra = $senha[$pos];
+            echo " --- $letra --- ";
         }
     }
 
