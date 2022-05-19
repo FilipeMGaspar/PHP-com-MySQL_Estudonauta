@@ -20,5 +20,5 @@
         return $ok;
     }
 
-    cripto('estudonauta');
+    echo cripto('estudonauta') . " --- <br>";
     echo "<br>". gerarHash('estudonauta');
