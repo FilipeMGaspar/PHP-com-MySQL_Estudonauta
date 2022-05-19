@@ -3,8 +3,8 @@
     function cripto($senha){
         $c = '';
         for($pos = 0; $pos < strlen($senha); $pos++) {
-            $letra = ord($senha[$pos]);
-            echo " --- $letra --- ";
+            $letra = ord($senha[$pos]) + 1;
+            echo chr($letra);
         }
     }
 
