@@ -20,3 +20,4 @@
     }
 
     cripto('estudonauta');
+    echo "<br>". gerarHash('estudonauta');
