@@ -11,3 +11,5 @@
     }
 
     echo gerarHash('teste') . "<br>";
+
+    $tstHash = '$2y$10$hJjCG9/iuf8MR/qtpBi/te8qB67z02ZNjXQr2mNdcqRBtN93CBIhy';
