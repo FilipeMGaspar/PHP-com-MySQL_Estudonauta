@@ -3,7 +3,7 @@
     function cripto($senha){
         $c = '';
         for($pos = 0; $pos < strlen($senha); $pos++) {
-            echo " --- $senha[$pos] --- ";
+            $letra = $senha[$pos];
         }
     }
 
