@@ -5,4 +5,4 @@
         return $hash;
     }
 
-    echo gerarHash('ola') . "<br>";
+    echo gerarHash('12345') . "<br>";
