@@ -9,7 +9,8 @@
     }
 
     function gerarHash($senha){
-        $hash = password_hash($senha, PASSWORD_DEFAULT);
+        $txt = cripto($senha);
+        $hash = password_hash($txt, PASSWORD_DEFAULT);
         return $hash;
     }
 
@@ -18,4 +19,4 @@
         return $ok;
     }
 
-    cripto('teste123@');
+    cripto('estudonauta');
