@@ -5,4 +5,4 @@
         return $hash;
     }
 
-    echo gerarHash('12345') . "<br>";
+    echo gerarHash('teste') . "<br>";
