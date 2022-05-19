@@ -23,4 +23,5 @@
     $original = 'estudonauta';
     echo $original . " --- <br>";
     echo cripto($original) . " --- <br>";
-    echo "<br>". gerarHash($original);
+    echo "<br>". gerarHash($original) . "<br>";
+    echo testarHash($original, '$2y$10$F2Jtnh5Wh6tDAutCatneJOUt1trs6cpJOGMkOUcnt4M2ehxiDjtTm')?"Senha Correta":"Senha Inválida!";
