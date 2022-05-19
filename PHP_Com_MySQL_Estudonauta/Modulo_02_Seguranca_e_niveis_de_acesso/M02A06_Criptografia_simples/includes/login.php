@@ -18,4 +18,4 @@
         return $ok;
     }
 
-    cripto('1234');
+    cripto('teste123@');
