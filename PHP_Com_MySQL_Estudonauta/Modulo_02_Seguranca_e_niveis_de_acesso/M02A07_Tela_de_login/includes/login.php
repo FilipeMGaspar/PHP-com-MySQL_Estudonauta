@@ -1,4 +1,9 @@
 <?php
+
+    session_start();
+    $_SESSION['user']
+    $_SESSION['nome']
+    $_SESSION['tipo']
     
     function cripto($senha){
         $c = '';
@@ -19,9 +24,3 @@
         $ok = password_verify($senha, $hash);
         return $ok;
     }
-
-    $original = 'estudonauta';
-    echo $original . " --- <br>";
-    echo cripto($original) . " --- <br>";
-    echo "<br>". gerarHash($original) . "<br>";
-    echo testarHash($original, '$2y$10$F2Jtnh5Wh6tDAutCatneJOUt1trs6cpJOGMkOUcnt4M2ehxiDjtTm')?"Senha Correta":"Senha Inválida!";
