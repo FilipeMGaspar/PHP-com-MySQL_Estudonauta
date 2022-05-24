@@ -1,4 +1,4 @@
 <?php
     echo "<header>";
-    echo  "Entrar";  
+    echo  "<a href='user-login.php'>Entrar</a>";  
     echo "</header>";
