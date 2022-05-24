@@ -16,7 +16,7 @@
             font-size: 15pt;
         }
         table td {
-            padding: 10px;
+            padding: 6px;
         }
     </style>
 </head>
