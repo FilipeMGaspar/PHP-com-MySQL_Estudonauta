@@ -2,10 +2,10 @@
 
     // Inicio de sessão
     session_start();
-
+    
     if(!isset($_SESSION['user'])){
-        $_SESSION['user'] = "Filipe";
-        $_SESSION['nome'] = "Filipe Gaspar";
+        $_SESSION['user'] = "";
+        $_SESSION['nome'] = "";
         $_SESSION['tipo'] = "";
     }
     
