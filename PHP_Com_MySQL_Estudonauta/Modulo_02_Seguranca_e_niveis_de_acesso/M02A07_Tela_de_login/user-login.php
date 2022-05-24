@@ -15,7 +15,7 @@
             width: 270px;
             font-size: 15pt;
         }
-        table {
+        table td {
             padding: 10px;
         }
     </style>

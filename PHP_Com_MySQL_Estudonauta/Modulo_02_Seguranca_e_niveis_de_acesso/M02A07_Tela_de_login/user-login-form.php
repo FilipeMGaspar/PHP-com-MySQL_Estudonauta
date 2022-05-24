@@ -1,4 +1,4 @@
-<h1>Efectue Login:</h1>
+<h2>Efectue Login:</h2>
 <form action="user-login.php" method="post">
     <table>
         <tr><td>Utilizador:<td><input type="text" name="usuario" id="usuario" size="10" maxlength="10">
