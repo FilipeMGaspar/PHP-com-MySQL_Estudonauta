@@ -17,7 +17,13 @@
         require_once "includes/login.php";
     ?>
     <div id="corpo">
+        <?php
+            $u = $_POST['usuario'] ?? null;
+            $s = $_POST['senha'] ?? null;
+        ?>
+        <form action="">
 
+        </form>
     </div>
 </body>
 </html>
