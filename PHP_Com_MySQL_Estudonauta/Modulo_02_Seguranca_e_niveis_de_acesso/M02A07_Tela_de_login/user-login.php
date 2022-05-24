@@ -8,7 +8,17 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <!-- Icons do Google-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Simulando jogos</title>
+    <title>Tela de Login</title>
+    <!-- Estilo pontual somente para esta página -->
+    <style>
+        div#corpo{
+            width: 270px;
+            font-size: 15pt;
+        }
+        table {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <?php
