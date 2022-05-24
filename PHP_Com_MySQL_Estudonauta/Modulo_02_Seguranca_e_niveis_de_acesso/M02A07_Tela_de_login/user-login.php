@@ -20,10 +20,13 @@
         <?php
             $u = $_POST['usuario'] ?? null;
             $s = $_POST['senha'] ?? null;
-        ?>
-        <form action="">
 
-        </form>
+            if(is_null($u) || is_null($s)){
+                require "user-login-form.php";
+            } else {
+                echo "Dados foram passados...";
+            }
+        ?>
     </div>
 </body>
 </html>
