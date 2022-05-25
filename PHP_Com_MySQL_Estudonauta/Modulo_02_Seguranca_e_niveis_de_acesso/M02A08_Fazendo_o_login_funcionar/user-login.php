@@ -55,7 +55,7 @@
                }
             }
 
-            echo voltar();
+            echo "<a href='index.php'>" . voltar() . " </a>";
         ?>
     </div>
 </body>
