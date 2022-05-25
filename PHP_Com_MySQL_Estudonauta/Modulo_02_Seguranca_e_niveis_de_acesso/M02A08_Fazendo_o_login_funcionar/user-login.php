@@ -34,7 +34,7 @@
             if(is_null($u) || is_null($s)){
                 require "user-login-form.php";
             } else {
-                echo "Dados foram passados...";
+               $q = "SELECT usuario, nome, senha, tipo FROM usuarios where usuario = '$u'";
             }
         ?>
     </div>
