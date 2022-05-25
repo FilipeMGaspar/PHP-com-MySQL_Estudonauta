@@ -13,7 +13,7 @@
     <style>
         div#corpo{
             width: 270px;
-            font-size: 15pt;
+            font-size: 12pt;
         }
         table td {
             padding: 6px;
