@@ -35,6 +35,7 @@
                 require "user-login-form.php";
             } else {
                $q = "SELECT usuario, nome, senha, tipo FROM usuarios where usuario = '$u' LIMIT 1";
+               $busca = $banco->query($q);
             }
         ?>
     </div>
