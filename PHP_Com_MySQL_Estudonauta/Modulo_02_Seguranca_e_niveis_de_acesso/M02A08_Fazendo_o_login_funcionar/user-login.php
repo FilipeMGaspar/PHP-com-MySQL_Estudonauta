@@ -39,14 +39,18 @@
                if(!$busca) {
                     echo msg_erro('Falha ao acessar o banco!');
                } else{
-                   $reg = $busca->fetch_object();
-                    if(testarHash($s, $reg->senha)){
-                        echo msg_sucesso('Login efectuado com sucesso.');
-                        $_SESSION['user'] =  $reg->usuario;
-                        $_SESSION['nome'] = $reg->nome;
-                        $_SESSION['tipo'] = $reg->tipo;
+                   if($busca->num_rows > 0){
+                    $reg = $busca->fetch_object();
+                        if(testarHash($s, $reg->senha)){
+                            echo msg_sucesso('Login efectuado com sucesso.');
+                            $_SESSION['user'] =  $reg->usuario;
+                            $_SESSION['nome'] = $reg->nome;
+                            $_SESSION['tipo'] = $reg->tipo;
+                        } else {
+                            echo msg_erro('Password Inválida!');
+                        }
                     } else {
-                        echo msg_erro('Password Inválida!');
+                        echo msg_erro('Senha inválida!');
                     }
                }
             }
