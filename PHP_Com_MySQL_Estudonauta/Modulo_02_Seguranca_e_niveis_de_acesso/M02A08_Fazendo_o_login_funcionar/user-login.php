@@ -40,7 +40,9 @@
                     echo msg_erro('Falha ao acessar o banco');
                } else{
                    $reg = $busca->fetch_object();
-                   print_r($reg);
+                    if(testarHash($s, $reg->senha)){
+                        
+                    }
                }
             }
         ?>
