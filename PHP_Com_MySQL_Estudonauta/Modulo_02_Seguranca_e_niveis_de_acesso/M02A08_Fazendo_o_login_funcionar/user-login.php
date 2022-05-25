@@ -36,6 +36,12 @@
             } else {
                $q = "SELECT usuario, nome, senha, tipo FROM usuarios where usuario = '$u' LIMIT 1";
                $busca = $banco->query($q);
+               if(!$busca) {
+                    echo msg_erro('Falha ao acessar o banco');
+               } else{
+                   $reg = $busca->fetch_object();
+                   print_r($reg);
+               }
             }
         ?>
     </div>
