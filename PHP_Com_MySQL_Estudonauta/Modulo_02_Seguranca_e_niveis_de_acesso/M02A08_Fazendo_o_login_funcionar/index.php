@@ -21,12 +21,6 @@
     <div id="corpo">
         <?php include_once "topo.php"?>
         <h1>Selecione um jogo</h1>
-        <!-- teste do Sistema de Mensagens -->
-        <?php
-         echo msg_sucesso("Arquivo carregado com sucesso.");
-         echo msg_aviso("Voce esqueceu de colocar o nome!");
-         echo msg_erro("!!! Falha no registo do jogo !!!");
-        ?>
         <form method="get" id="busca" action="index.php">
             Ordenar: 
             <a href="index.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
