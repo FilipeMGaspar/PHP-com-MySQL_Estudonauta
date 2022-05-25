@@ -37,11 +37,13 @@
                $q = "SELECT usuario, nome, senha, tipo FROM usuarios where usuario = '$u' LIMIT 1";
                $busca = $banco->query($q);
                if(!$busca) {
-                    echo msg_erro('Falha ao acessar o banco');
+                    echo msg_erro('Falha ao acessar o banco!');
                } else{
                    $reg = $busca->fetch_object();
                     if(testarHash($s, $reg->senha)){
-                        
+                        echo msg_sucesso('Login efectuado com sucesso.');
+                    } else {
+                        echo msg_erro('Password Inválida!');
                     }
                }
             }
