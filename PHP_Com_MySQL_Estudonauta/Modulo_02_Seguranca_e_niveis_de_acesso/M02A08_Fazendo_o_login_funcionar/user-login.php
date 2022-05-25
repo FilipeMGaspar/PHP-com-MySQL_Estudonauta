@@ -42,9 +42,9 @@
                    $reg = $busca->fetch_object();
                     if(testarHash($s, $reg->senha)){
                         echo msg_sucesso('Login efectuado com sucesso.');
-                        $_SESSION['user'];
-                        $_SESSION['nome'];
-                        $_SESSION['tipo'];
+                        $_SESSION['user'] =  $reg->usuario;
+                        $_SESSION['nome'] = $reg->nome;
+                        $_SESSION['tipo'] = $reg->tipo;
                     } else {
                         echo msg_erro('Password Inválida!');
                     }
