@@ -47,6 +47,8 @@
                     }
                }
             }
+
+            echo voltar();
         ?>
     </div>
 </body>
