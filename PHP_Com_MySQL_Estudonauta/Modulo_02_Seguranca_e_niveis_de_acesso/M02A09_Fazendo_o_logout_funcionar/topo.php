@@ -4,6 +4,6 @@
         echo  "<a href='user-login.php'>Entrar</a>"; 
     } else {
         echo "Olá, <strong>" . $_SESSION['nome'] . "</strong>  | ";
-        echo "Sair";
+        echo "<a href='user-logout.php'>Sair</a>";
     }    
     echo "</header>";
