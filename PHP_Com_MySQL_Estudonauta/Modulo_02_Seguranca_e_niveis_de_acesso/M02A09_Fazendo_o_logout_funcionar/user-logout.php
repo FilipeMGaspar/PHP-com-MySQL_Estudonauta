@@ -20,6 +20,7 @@
         <?php
         logout();
         echo msg_sucesso("Sessão terminada com sucesso!");
+        echo voltar();
         ?>
     </div>
 </body>
