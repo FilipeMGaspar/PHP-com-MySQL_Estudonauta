@@ -9,7 +9,7 @@
         }
 
         function voltar(){
-            return "<span class='material-symbols-outlined'>keyboard_double_arrow_left</span>";
+            return "<a href='index.php'><span class='material-symbols-outlined'>keyboard_double_arrow_left</span></a>";
         }
 
         function msg_sucesso($msg) {

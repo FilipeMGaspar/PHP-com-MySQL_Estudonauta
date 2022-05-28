@@ -43,7 +43,7 @@
                    
             ?>
         </table>
-        <a href="index.php"><?php echo voltar();?></a>
+        <?php echo voltar();?></a>
     </div>
     <?php include_once "rodape.php";?>
 </body>
