@@ -6,5 +6,5 @@
         echo "Olá, <strong>" . $_SESSION['nome'] . "</strong>  | ";
         echo "<a href='user-logout.php'>Sair</a>";
     }    
-    echo "<p> (utilizador do tipo)". $_SESSION['tipo'] ." </p>";
+    echo "<p> (Tipo de Utilizador ..: ". $_SESSION['tipo'] .") </p>";
     echo "</header>";
