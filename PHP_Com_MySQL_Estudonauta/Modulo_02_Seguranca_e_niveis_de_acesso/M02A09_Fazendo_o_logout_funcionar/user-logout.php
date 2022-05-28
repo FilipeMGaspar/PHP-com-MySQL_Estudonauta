@@ -17,7 +17,10 @@
         require_once "includes/login.php";
     ?>
     <div id="corpo">
-
+        <?php
+        logout();
+        echo msg_sucesso("Sessão terminada com sucesso!");
+        ?>
     </div>
 </body>
 </html>
