@@ -30,7 +30,7 @@
     }
 
     function logout(){
-        $_SESSION['user'];
-        $_SESSION['nome'];
-        $_SESSION['tipo'];
+        unset($_SESSION['user']);
+        unset($_SESSION['nome']);
+        unset($_SESSION['tipo']);
     }
