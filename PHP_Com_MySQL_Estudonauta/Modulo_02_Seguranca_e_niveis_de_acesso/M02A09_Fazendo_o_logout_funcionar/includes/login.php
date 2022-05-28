@@ -28,3 +28,9 @@
         $ok = password_verify(cripto($senha), $hash);
         return $ok;
     }
+
+    function logout(){
+        $_SESSION['user'];
+        $_SESSION['nome'];
+        $_SESSION['tipo'];
+    }
