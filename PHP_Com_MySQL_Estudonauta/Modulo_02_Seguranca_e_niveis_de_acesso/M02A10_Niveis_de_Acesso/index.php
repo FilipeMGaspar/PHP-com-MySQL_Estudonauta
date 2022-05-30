@@ -67,7 +67,11 @@
                             echo "<td><a href='detalhes.php?cod=$reg->cod'>$reg->nome</a>";
                             echo " [$reg->genero]";
                             echo "<br> $reg->produtora";
-                            echo "<td>Adm";
+                            if(is_admin()){
+                                
+                            } else if (is_editor()){
+
+                            }
                         }
                     }
                 }
