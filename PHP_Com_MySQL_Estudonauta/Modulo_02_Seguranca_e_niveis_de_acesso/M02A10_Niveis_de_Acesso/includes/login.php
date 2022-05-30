@@ -42,3 +42,11 @@
             return true;
         }
     }
+
+    function is_admin() {
+
+    }
+
+    function is_editor() {
+        
+    }
