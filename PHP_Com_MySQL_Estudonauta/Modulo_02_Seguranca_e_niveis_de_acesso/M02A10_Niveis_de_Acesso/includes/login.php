@@ -34,3 +34,11 @@
         unset($_SESSION['nome']);
         unset($_SESSION['tipo']);
     }
+
+    function is_logado(){
+        if(empty($_SESSION['user'])){
+            return false;
+        } else {
+            return true;
+        }
+    }
