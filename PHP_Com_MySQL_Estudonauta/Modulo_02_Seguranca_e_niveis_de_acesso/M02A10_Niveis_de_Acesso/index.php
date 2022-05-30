@@ -68,9 +68,13 @@
                             echo " [$reg->genero]";
                             echo "<br> $reg->produtora";
                             if(is_admin()){
-                                echo "<td>Novo | Alterar | Excluir";
+                                echo "<td>";
+                                echo "<span class='material-symbols-outlined'>add_circle</span>";
+                                echo "<span class='material-symbols-outlined'>edit</span>";
+                                echo "<span class='material-symbols-outlined'>delete</span>";
                             } elseif (is_editor()){
-                                echo "<td>Alterar";
+                                echo "<td>";
+                                echo "<span class='material-symbols-outlined'>edit</span>";
                             }
                         }
                     }
