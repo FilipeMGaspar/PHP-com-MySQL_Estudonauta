@@ -44,9 +44,18 @@
     }
 
     function is_admin() {
-
+        $t = $_SESSION['tipo'] ?? null;
+        if(is_null($t)){
+            return false;
+        } else {
+            if($t == 'admin') {
+                return true;
+            } else {
+                return false;
+            }
+        }
     }
 
     function is_editor() {
-        
+
     }
