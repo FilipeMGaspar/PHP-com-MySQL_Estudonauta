@@ -35,11 +35,11 @@
                         echo "<td><h2>$reg->nome</h2>";
                         echo "Nota: ". number_format($reg->nota, 1) . "/10";
                         if(is_admin()){
-                            echo "<span class='material-symbols-outlined'>add_circle</span>";
-                            echo "<span class='material-symbols-outlined'>edit</span>";
-                            echo "<span class='material-symbols-outlined'>delete</span>";
+                            echo " <span class='material-symbols-outlined'>add_circle</span> ";
+                            echo "<span class='material-symbols-outlined'>edit</span> ";
+                            echo "<span class='material-symbols-outlined'>delete</span> ";
                         } elseif (is_editor()){
-                            echo "<span class='material-symbols-outlined'>edit</span>";
+                            echo " <span class='material-symbols-outlined'>edit</span>";
                         }
                         echo "<tr><td>$reg->descricao"; 
                     } else {
