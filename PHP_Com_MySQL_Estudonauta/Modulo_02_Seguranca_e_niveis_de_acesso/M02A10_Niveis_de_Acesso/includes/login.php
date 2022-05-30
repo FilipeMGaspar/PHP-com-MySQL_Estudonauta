@@ -57,5 +57,16 @@
     }
 
     function is_editor() {
-
+        $t = $_SESSION['tipo'] ?? null;
+        if(is_null($t)){
+            if(is_null($t)) {
+                return false;
+            } else {
+                if($t == 'editor') {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
     }
