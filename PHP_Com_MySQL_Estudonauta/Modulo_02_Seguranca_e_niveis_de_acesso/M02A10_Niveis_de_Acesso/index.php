@@ -68,9 +68,9 @@
                             echo " [$reg->genero]";
                             echo "<br> $reg->produtora";
                             if(is_admin()){
-                                
-                            } else if (is_editor()){
-
+                                echo "<td>Novo | Alterar | Excluir";
+                            } elseif (is_editor()){
+                                echo "<td>Alterar";
                             }
                         }
                     }
