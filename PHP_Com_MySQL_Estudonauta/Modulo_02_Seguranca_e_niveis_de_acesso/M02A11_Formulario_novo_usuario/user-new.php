@@ -18,7 +18,11 @@
     ?>
     <div id="corpo">
         <?php
-           
+           if(!is_admin()){
+                echo msg_erro("O seu utilizador não é Administrador");
+           } else {
+               echo "<h1>Novo Utilizador</h1>";
+           }
         ?>
     </div>
 </body>
