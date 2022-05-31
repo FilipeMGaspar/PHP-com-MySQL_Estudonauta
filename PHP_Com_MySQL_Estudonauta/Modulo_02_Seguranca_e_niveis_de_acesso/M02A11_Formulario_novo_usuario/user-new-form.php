@@ -9,6 +9,7 @@
         </select></td></tr>
         <tr><td>Password</td><td><input type="password" name="senha1" id="senha1" size="10" maxlength="10"></td></tr>
         <tr><td>Confirme a Password</td><td><input type="password" name="senha2" id="senha2" size="10" maxlength="10"></td></tr>
+        <tr><td><input type="submit" value="Guardar"></td></tr>
     </table>
 
 </form>
