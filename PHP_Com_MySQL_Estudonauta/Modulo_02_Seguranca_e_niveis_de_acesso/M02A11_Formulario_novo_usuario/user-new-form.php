@@ -5,7 +5,7 @@
         <tr><td>Nome</td><td><input type="text" name="nome" id="nome" size="30" maxlength="30"></td></tr>
         <tr><td>Tipo</td><td><select name="tipo" id="tipo">
             <option value="admin"> Administrador</option>
-            <option value="editor"> Editor</option>
+            <option value="editor" selected> Editor</option>
         </select></td></tr>
     </table>
 
