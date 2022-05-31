@@ -1,0 +1,31 @@
+<?php
+        function thumb($arq){
+            $caminho = "fotos/$arq";
+            if(is_null($arq) || !file_exists($caminho)){ //Se for nulo ou o arquivo não existir
+                return "fotos/indisponivel.png";
+            } else {
+                return $caminho;
+            }
+        }
+
+        function voltar(){
+            return "<a href='index.php'><span class='material-symbols-outlined'>keyboard_double_arrow_left</span></a>";
+        }
+
+        function msg_sucesso($msg) {
+            $resp = "<div class='sucesso'><span class='material-symbols-outlined'>check_circle</span>$msg</div>";
+            return $resp;
+        }
+
+        function msg_aviso ($msg){
+            $resp="<div class='aviso'><span class='material-symbols-outlined'>info</span>$msg</div>";
+            return $resp;
+        }
+
+        function msg_erro($msg) {
+            $resp="<div class='erro'><span class='material-symbols-outlined'>gpp_bad</span>$msg</div>";
+
+            return $resp;
+        }
+
+    ?>
