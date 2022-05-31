@@ -29,7 +29,9 @@
                     $nome = $_POST['nome'] ?? null;
                     $senha1 = $_POST['senha1'] ?? null;
                     $senha2 = $_POST['senha2'] ?? null;
-                    $tipo = $_POST['tipo'] ??  null
+                    $tipo = $_POST['tipo'] ??  null;
+
+                    echo "Pronto para guardar dados!";
                 }
                 echo "<h1>Novo Utilizador</h1>";
 
