@@ -33,8 +33,6 @@
 
                     echo "Pronto para guardar dados!";
                 }
-                echo "<h1>Novo Utilizador</h1>";
-
            }
         ?>
     </div>
