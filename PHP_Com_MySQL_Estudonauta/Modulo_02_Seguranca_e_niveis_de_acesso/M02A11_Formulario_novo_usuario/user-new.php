@@ -31,7 +31,7 @@
                     $senha2 = $_POST['senha2'] ?? null;
                     $tipo = $_POST['tipo'] ??  null;
 
-                    echo "Pronto para guardar dados!";
+                    
                 }
            }
            echo voltar();
