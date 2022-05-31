@@ -19,7 +19,7 @@
     <div id="corpo">
         <?php
            if(!is_admin()){
-                echo msg_erro("O seu utilizador não é Administrador!");
+                echo msg_erro("Área restrita! Não é Administrador!");
                 echo voltar();
            } else {
                echo "<h1>Novo Utilizador</h1>";
