@@ -31,7 +31,12 @@
                     $senha2 = $_POST['senha2'] ?? null;
                     $tipo = $_POST['tipo'] ??  null;
 
-                    
+                    if($senha1 === $senha2){
+                        echo msg_sucesso("Tudo certo para gravar!");
+                    } else {
+                        echo msg_erro("As Passwords devem ser coincidir!") . "<br>";
+                        echo msg_erro("Por favor, repita o procedimento!");
+                    }
                 }
            }
            echo voltar();
