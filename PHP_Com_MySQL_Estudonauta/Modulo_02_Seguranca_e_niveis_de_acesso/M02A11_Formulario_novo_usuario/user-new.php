@@ -34,6 +34,7 @@
                     echo "Pronto para guardar dados!";
                 }
            }
+           echo voltar();
         ?>
     </div>
 </body>
