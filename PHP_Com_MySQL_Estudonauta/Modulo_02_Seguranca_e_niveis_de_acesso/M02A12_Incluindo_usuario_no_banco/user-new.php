@@ -34,6 +34,8 @@
                     if($senha1 === $senha2){
                         if(empty($usuario) || empty($nome) || empty($senha1) || empty($senha2) || empty($tipo)){
                             echo msg_erro("Todos os dados são obrigatórios");
+                        } else {
+                            echo msg_sucesso("Tudo ok?");
                         }
                     } else {
                         echo msg_erro("As Passwords devem ser coincidir!") . "<br>";
