@@ -39,8 +39,9 @@
                             $q = "INSERT INTO usuarios (usuario, nome, senha, tipo) VALUES ('$usuario', '$nome', '$senha', '$tipo')";
                             if($banco->query($q)){
                                 echo msg_sucesso("Utilizador $nome, adicionado com sucesso.");
-                            }
-                        }
+                            } else {
+                                echo msg_erro("Não foi possivel, criar o utilizador $usuario!");
+                            }                        }
                     } else {
                         echo msg_erro("As Passwords devem ser coincidir!") . "<br>";
                         echo msg_erro("Por favor, repita o procedimento!");
