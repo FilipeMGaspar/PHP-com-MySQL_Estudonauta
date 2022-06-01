@@ -21,7 +21,11 @@
             if(!is_logado()){
                 echo msg_erro("Efetue <a href='user-login.php'>login</a>, para poder editar dados!");
             } else {
-                echo msg_sucesso("Pode editar os seu dados");
+                if(!isset($_POST['usuario'])){
+                    include "user-edit-form.php";
+                } else {
+                    echo msg_sucesso("Dados recebidos  com sucesso!");
+                }
             }
         ?>
     </div>
