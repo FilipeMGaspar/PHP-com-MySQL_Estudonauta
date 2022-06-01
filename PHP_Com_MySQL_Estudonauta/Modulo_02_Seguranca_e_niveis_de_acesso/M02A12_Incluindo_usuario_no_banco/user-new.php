@@ -37,6 +37,9 @@
                         } else {
                             $senha = gerarHash($senha1);
                             $q = "INSERT INTO usuarios (usuario, nome, senha, tipo) VALUES ('$usuario', '$nome', '$senha', '$tipo')";
+                            if($banco->query($q)){
+                                echo msg_sucesso("Utilizador $nome, adicionado com sucesso.");
+                            }
                         }
                     } else {
                         echo msg_erro("As Passwords devem ser coincidir!") . "<br>";
