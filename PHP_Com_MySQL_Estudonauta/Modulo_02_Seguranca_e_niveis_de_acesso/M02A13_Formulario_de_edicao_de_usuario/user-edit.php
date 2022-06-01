@@ -17,7 +17,13 @@
         require_once "includes/login.php";
     ?>
     <div id="corpo">
-        <h1>Edeção de dados!</h1>
+        <?php
+            if(!is_logado()){
+                echo msg_erro("Efetue <a href='user-login.php'>login</a>, para poder editar dados!");
+            } else {
+                echo msg_sucesso("Pode editar os seu dados");
+            }
+        ?>
     </div>
 </body>
 </html>
