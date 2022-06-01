@@ -32,7 +32,9 @@
                     $tipo = $_POST['tipo'] ??  null;
 
                     if($senha1 === $senha2){
-                        echo msg_sucesso("Tudo certo para gravar!");
+                        if(empty($usuario) || empty($nome) || empty($senha1) || empty($senha2) || empty($tipo)){
+                            echo msg_erro("Todos os dados são obrigatórios");
+                        }
                     } else {
                         echo msg_erro("As Passwords devem ser coincidir!") . "<br>";
                         echo msg_erro("Por favor, repita o procedimento!");
