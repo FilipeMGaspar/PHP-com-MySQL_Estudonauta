@@ -1,5 +1,5 @@
 <?php
-    $q = "SELECT usuario, nome, senha, tipo FROM usuarios WHERE usuario=" . $_SESSION['user'];
+    $q = "SELECT usuario, nome, senha, tipo FROM usuarios WHERE usuario='" . $_SESSION['user']."'";
 ?>
 
 <h1>Alteração de dados</h1>
