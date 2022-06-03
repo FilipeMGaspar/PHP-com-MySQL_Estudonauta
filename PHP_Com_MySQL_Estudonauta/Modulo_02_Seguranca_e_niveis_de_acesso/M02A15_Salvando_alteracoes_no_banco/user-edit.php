@@ -39,7 +39,7 @@
                             $senha = gerarHash($senha1);
                             $q .= ", senha='$senha'";
                             logout();
-                            echo msg_aviso("Por favor, efectue novo login!");
+                            echo msg_aviso("Por favor, efectue novo <a href='login.php'>login</a>!");
                         } else {
                             echo msg_erro("As passwords não conferem!");
                             echo msg_erro(" Password anterior foi mantida!");
