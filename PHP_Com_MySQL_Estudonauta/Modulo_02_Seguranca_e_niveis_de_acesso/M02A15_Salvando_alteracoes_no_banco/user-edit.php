@@ -37,6 +37,9 @@
                     } else {
                         if($senha1 === $senha2) {
                             $senha = gerarHash($senha1);
+                            $q .= ", senha='$senha'";
+                        } else {
+                            echo msg_erro("");
                         }
                     }
                 }
