@@ -38,8 +38,6 @@
                         if($senha1 === $senha2) {
                             $senha = gerarHash($senha1);
                             $q .= ", senha='$senha'";                            
-                            echo msg_aviso("Por favor, efectue novo <a href='user-login.php'>login</a>!");
-                            logout();
                         } else {
                             echo msg_erro("As passwords não conferem!");
                             echo msg_erro(" Password anterior foi mantida!");
@@ -50,6 +48,8 @@
 
                    if($banco->query($q)){
                         echo msg_sucesso("Dados alterados com sucesso.");
+                        logout();
+                        echo msg_aviso("Por favor, efectue novo <a href='user-login.php'>login</a>!");                        
                    } else {
                        echo msg_erro("Não foi possivel alterar os dados!");
                    }
