@@ -36,7 +36,7 @@
                         echo msg_aviso("A Password foi mantida!");
                     } else {
                         if($senha1 === $senha2) {
-                            
+                            $senha = gerarHash($senha1);
                         }
                     }
                 }
