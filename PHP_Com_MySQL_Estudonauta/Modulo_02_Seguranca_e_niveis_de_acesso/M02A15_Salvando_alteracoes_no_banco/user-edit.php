@@ -48,7 +48,9 @@
 
                    if($banco->query($q)){
                         echo msg_sucesso("Dados alterados com sucesso.");
-                   } 
+                   } else {
+                       echo msg_erro("Não foi possivel alterar os dados!");
+                   }
                 }
             }
         ?>
