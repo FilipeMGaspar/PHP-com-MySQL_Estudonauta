@@ -39,7 +39,8 @@
                             $senha = gerarHash($senha1);
                             $q .= ", senha='$senha'";
                         } else {
-                            echo msg_erro("");
+                            echo msg_erro("As passwords não conferem!");
+                            echo msg_erro(" Password anterior foi mantida!");
                         }
                     }
                 }
