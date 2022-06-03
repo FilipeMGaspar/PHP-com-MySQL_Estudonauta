@@ -45,6 +45,10 @@
                     }
 
                     $q .= " where usuario= '" . $_SESSION['user'] . "'";
+
+                   if($banco->query($q)){
+                        echo msg_sucesso("Dados alterados com sucesso.");
+                   } 
                 }
             }
         ?>
