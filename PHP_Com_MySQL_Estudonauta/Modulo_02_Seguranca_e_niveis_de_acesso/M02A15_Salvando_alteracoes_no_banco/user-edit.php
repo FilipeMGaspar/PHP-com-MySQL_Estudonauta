@@ -24,7 +24,11 @@
                 if(!isset($_POST['usuario'])){
                     include "user-edit-form.php";
                 } else {
-                    echo msg_sucesso("Dados recebidos  com sucesso!");
+                    $usuario = $_POST['usuario'] ?? null;
+                    $nome = $_POST['nome'] ?? null;
+                    $tipo = $_POST['tipo'] ?? null;
+                    $senha1 = $_POST['senha1'] ?? null;
+                    $senha2 = $_POST['senha2'] ?? null;
                 }
             }
         ?>
