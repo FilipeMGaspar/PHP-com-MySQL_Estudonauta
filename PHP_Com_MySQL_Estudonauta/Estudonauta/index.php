@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
     <link rel="stylesheet" href="estilo/estilo.css">
+    <!-- Icones - Google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Listagem de Jogos</title>
 </head>
 <body>
     <?php
         require_once "includes/banco.php";
         require_once "includes/funcoes.php";
+        require_once "includes/login.php";
         $ordem = $_GET['o'] ?? "n";
         $chave =$_GET['c'] ?? "";
     ?>
@@ -21,8 +25,8 @@
             Ordenar: 
             <a href="index.php?o=n&c=<?php echo $chave;?>">Nome</a> | 
             <a href="index.php?o=p&c=<?php echo $chave;?>">Produtora</a> | 
-            <a href="index.php?o=na&c=<?php echo $chave;?>">Nota Alta</a> |
-            <a href="index.php?o=nb&c=<?php echo $chave;?>">Nota Baixa</a> |
+            <a href="index.php?o=na<?php echo $chave;?>">Nota Alta</a> |
+            <a href="index.php?o=nb<?php echo $chave;?>">Nota Baixa</a> |
             <a href="index.php">Mostrar Todos</a> |
             Buscar: <input type="text" name="c" size="10" maxlength="40">
             <input type="submit" value="Ok">
@@ -63,7 +67,15 @@
                             echo "<td><a href='detalhes.php?cod=$reg->cod'>$reg->nome</a>";
                             echo " [$reg->genero]";
                             echo "<br> $reg->produtora";
-                            echo "<td>Adm";
+                            if(is_admin()){
+                                echo "<td>";
+                                echo "<span class='material-symbols-outlined'>add_circle</span>";
+                                echo "<span class='material-symbols-outlined'>edit</span>";
+                                echo "<span class='material-symbols-outlined'>delete</span>";
+                            } elseif (is_editor()){
+                                echo "<td>";
+                                echo "<span class='material-symbols-outlined'>edit</span>";
+                            }
                         }
                     }
                 }
