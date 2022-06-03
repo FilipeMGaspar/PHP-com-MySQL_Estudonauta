@@ -37,9 +37,9 @@
                     } else {
                         if($senha1 === $senha2) {
                             $senha = gerarHash($senha1);
-                            $q .= ", senha='$senha'";
-                            logout();
+                            $q .= ", senha='$senha'";                            
                             echo msg_aviso("Por favor, efectue novo <a href='user-login.php'>login</a>!");
+                            logout();
                         } else {
                             echo msg_erro("As passwords não conferem!");
                             echo msg_erro(" Password anterior foi mantida!");
