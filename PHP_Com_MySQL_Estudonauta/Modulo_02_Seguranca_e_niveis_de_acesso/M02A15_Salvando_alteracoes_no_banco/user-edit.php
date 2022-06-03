@@ -32,7 +32,7 @@
 
                     $q = "UPDATE usuarios SET  usuario = '$usuario', nome = '$nome'";
 
-                    if(empty($senha1) || is_null($senha)){
+                    if(empty($senha1) || is_null($senha1)){
                         echo msg_aviso("A Password foi mantida!");
                     } else {
                         if($senha1 === $senha2) {
