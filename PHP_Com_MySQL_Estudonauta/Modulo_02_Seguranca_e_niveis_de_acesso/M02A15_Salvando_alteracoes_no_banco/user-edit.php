@@ -43,6 +43,8 @@
                             echo msg_erro(" Password anterior foi mantida!");
                         }
                     }
+
+                    $q .= " where usuario= '" . $_SESSION['user'] . "'";
                 }
             }
         ?>
