@@ -31,6 +31,8 @@
                     $senha2 = $_POST['senha2'] ?? null;
 
                     $q = "UPDATE usuarios SET  usuario = '$usuario', nome = '$nome'";
+
+                    
                 }
             }
         ?>
